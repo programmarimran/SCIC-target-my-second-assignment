@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quicksand{
+  font-family:"Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    }
+    /* shared style */
+    header{
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    #hamberger{
+      display: none;
+    }
+    /* navber style */
+    .nav-container{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #nev-logo{
+      display: flex;
+      align-items: center;
+    }
+    .nav-container img{
+      width:30%;
+    }
+    #logo-name{
+      font-weight: 700px;
+      font-size: 2rem;
+      color: rgba(17, 17, 17, 1);
+    }
+    .nav-links{
+      display: flex;
+      gap: 32px;
+      font-weight: 500;
+      font-size: 1.25rem;
+    }
+    #li1{
+      color: rgba(254, 163, 1, 1);
+    }
+    #li2{
+      color: rgba(1, 172, 253, 1);
+    }
+    #li3{
+      color: rgba(5, 212, 223, 1);
+    }
+    #li4{
+      color: rgba(93, 88, 239, 1);
+    }
+    .nev-list{
+      list-style: none;
+    }
+    .nev-list a{
+      text-decoration: none;
+    }
+    .btn-primary{
+      font-weight: 600;
+      font-size: 1.25;
+      color: rgba(255, 255, 255, 1);
+      border: none;
+      border-radius: 12px;
+      padding: 10px 60px;
+      background-color: rgba(254, 163, 1, 1);
+    }
+    /* media query is start */
+    /* small device */
+    @media screen and (max-width:576px) {
+      #logo-name,
+      .nav-links,
+      #nav-btn{
+        display: none;
+      }
+      .nav-container{
+        border-bottom: 1px solid rgba(254, 163, 1, 1);
+        padding-bottom: 12px;
+      }
+      #hamberger{
+        display:block;
+        position:static;
+      }
+      #hamberger-container:hover .nav-links{
+        display: block;
+      }
+    }
