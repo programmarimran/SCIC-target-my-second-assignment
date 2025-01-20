@@ -145,5 +145,6 @@
       /* banner part */
       .banner-parent{
         text-align: center;
+        align-items: center;
       }
     }
