@@ -205,10 +205,14 @@
       align-items: center;
       justify-content: center;
     }
+    .arrow:hover{
+      height: 35px;
+      width: 35px;
+    }
     /* Our stories start  */
     .stories-background-inner{
-      background-color: rgba(255, 255, 255, 0.51);
-      background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.51),rgba(254, 163, 1, 0.37));
+      background-color: rgba(255, 255, 255, 0);
+      background-image: linear-gradient(180deg,rgba(255, 255, 255, 0),rgba(254, 163, 1, 0.5));
     }
     .story-card-img img{
       width: 100%;
@@ -233,7 +237,8 @@
       }
       .card-container{
         flex-direction: column;
-        margin: 20px 20px;
+        width:90vw;
+        justify-self: center;
       }
       /* nav */
       .nav-container img{
