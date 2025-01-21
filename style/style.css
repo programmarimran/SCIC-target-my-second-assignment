@@ -215,6 +215,7 @@
       height: 100%;
     }
     .story-title{
+      margin-bottom: 80px;
       font-weight: 700;
       font-size: 2.87rem;
       color: rgba(0, 0, 0, 1);
@@ -243,7 +244,7 @@
     .stories-parent{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      column-gap: 19px;
+      gap: 19px;
     }
     /* story out part */
     .story1-text{
@@ -278,13 +279,13 @@
     }
     /* story in part  */
     .story-card-text{
-      padding: 33px 38px 28px;
+      padding: 33px 30px 28px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
     }
     .story-card-title{
-      font-weight: 700;
+      font-weight: 600;
       font-size: 1rem;
       color: rgba(0, 0, 0, 1);
     }
@@ -298,10 +299,12 @@
       border: none;
       border-radius: 47px;
       font-weight: 400;
-      font-size: 1rem;
-      position:relative;
-      left: 25px;
-      top: -140px;
+      font-size: .9rem;
+      /* position:relative; */
+      position:absolute;
+      top: 118px;
+      left: 8px;
+      
     }
     #story-card-btn2{
       background-color: rgba(93, 88, 240, 1);
