@@ -329,6 +329,18 @@
       background-color: rgba(93, 88, 240, 1);
     }
     /* media query is start */
+    @media screen and (min-width:577px) and (max-width:768px) {
+      .stories-parent-big{
+        display: none;
+      }
+      .stories-parent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+      .story-card-img img{
+        width:90vw;
+      }
+    }
     /* small device */
     @media screen and (max-width:576px) {
       /* shared style */
@@ -382,6 +394,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
        
+      }
+      .story-card-img img{
+        width:90vw;
       }
 
     }
