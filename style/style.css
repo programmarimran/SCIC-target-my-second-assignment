@@ -220,6 +220,12 @@
       color: rgba(0, 0, 0, 1);
       text-align: center;
     }
+    .story-btn-parent{
+      margin-top: 80px;
+      padding-bottom: 60px;
+      display: flex;
+      justify-content: center;
+    }
     .story-btn{
       font-weight: 700;
       font-size: 1.25rem;
