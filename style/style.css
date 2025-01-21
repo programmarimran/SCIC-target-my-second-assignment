@@ -336,9 +336,13 @@
       .stories-parent{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        flex-wrap: wrap;
+      }
+      .story-card{
+        width: 33vw;
       }
       .story-card-img img{
-        width:90vw;
+        width:100%;
       }
     }
     /* small device */
@@ -393,10 +397,16 @@
       .stories-parent{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-       
+        
+        
+      }
+      .story-card{
+        width: 45vw;
+        place-self: center;
       }
       .story-card-img img{
-        width:90vw;
+        width:45vw;
+        place-self: center;
       }
 
     }
