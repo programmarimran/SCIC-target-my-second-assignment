@@ -211,8 +211,7 @@
     }
     /* Our stories style start  */
     .stories-background-inner{
-      background: linear-gradient(180deg,white,rgba(254, 163, 1, 0.22));
-      height: 100%;
+      background:linear-gradient(180deg,rgba(255, 255, 255, 0),rgba(254, 163, 1, 0.29)),url(../assets/bg.png);
     }
     .story-title{
       margin-bottom: 80px;
@@ -290,6 +289,8 @@
       color: rgba(0, 0, 0, 1);
     }
     .story-card{
+      background-color:rgba(255, 255, 255, 1) ;
+      border-radius: 16px;
       position:relative;
     }
     .story-card-btn{
@@ -302,7 +303,7 @@
       font-size: .9rem;
       /* position:relative; */
       position:absolute;
-      top: 118px;
+      top: 115px;
       left: 8px;
       
     }
