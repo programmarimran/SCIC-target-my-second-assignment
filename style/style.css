@@ -26,8 +26,9 @@
       background-image: url(../assets/bg.png);
       background-size:contain;
       background-repeat:round;
-      
-
+    }
+    a{
+      text-decoration: none;
     }
     /* navber style */
     .nav-container{
@@ -179,14 +180,23 @@
       color: rgba(255, 255, 255, 1);
       border: none;
     }
-    #card-btn1{
+    #card-btn1 a{
       color: rgba(100, 200, 255, 1);
     }
-    #card-btn2{
+    #card-btn2 a{
       color: rgba(240, 170, 0, 1);
     }
-    #card-btn3{
+    #card-btn3 a{
       color: rgba(135, 0, 255, 1);
+    }
+    #card-btn1 a:hover{
+      box-shadow: 0 0 28px 94px rgba(160, 69, 7, 0.08);
+    }
+    #card-btn2 a:hover{
+      box-shadow: 0 0 28px 94px rgba(238, 225, 255, 0.23);
+    }
+    #card-btn3 a:hover{
+      box-shadow: 0 0 28px 94px rgba(110, 149, 63, 0.09);
     }
     .arrow-parent{
       margin: 80px 0 60px;
@@ -208,6 +218,7 @@
     .arrow:hover{
       height: 35px;
       width: 35px;
+      box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.5);
     }
     /* Our stories style start  */
     .stories-background-inner{
@@ -290,8 +301,9 @@
       border-bottom-right-radius: 16px;
     }
     .story-card-title{
+      margin-top: 40px;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: .7rem;
       color: rgba(0, 0, 0, 1);
     }
     .story-card{
@@ -322,7 +334,8 @@
       /* shared style */
       .banner-container{
         flex-direction: column-reverse;
-        margin: 20px 20px;
+        width:90vw;
+        justify-self: center;
       }
       .card-container{
         flex-direction: column;
@@ -336,7 +349,8 @@
       #logo-name,
       .nav-links,
       #nav-btn,
-      .arrow-parent{
+      .arrow-parent,
+      .stories-parent-big{
         display: none;
       }
       .nav-container{
@@ -362,6 +376,12 @@
       /* Standard Curriculum style */
       .curriculum-title{
         font-size: 1.62rem;
+      }
+      /* our story part style */
+      .stories-parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
       }
 
     }
