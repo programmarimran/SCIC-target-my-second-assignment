@@ -408,6 +408,8 @@
       }
       .stories-parent{
         grid-template-columns: repeat(3,1fr);
+        width: 95%;
+        justify-self: center;
       }
       .stories-parent-big{
         display: none;
@@ -481,8 +483,12 @@
       .stories-parent-big{
         display: none;
       }
+      .stories-parent{
+        width: 95%;
+        justify-self: center;
+      }
       .story-card-btn {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
       }
       /* footer section media start */
       .foot-container{
