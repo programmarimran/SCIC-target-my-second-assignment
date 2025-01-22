@@ -295,7 +295,7 @@
       font-size: 1rem;
       position: relative;
       left: 38px;
-      top: -300px;
+      top: -85px;
     }
     /* story in part  */
     .story-card-text{
@@ -316,18 +316,16 @@
       position:relative;
     }
     .story-card-btn{
-      padding: 8px 15px;
+      padding: 8px 10px;
       color: rgba(255, 255, 255, 1);
       background-color: rgba(149, 178, 38, 1);
       border: none;
       border-radius: 47px;
       font-weight: 400;
-      font-size: .9rem;
-      /* position:relative; */
-      position:absolute;
-      top: 115px;
-      left: 8px;
-      
+      font-size: .8rem;
+      position: relative;
+      top: -50px;
+      left: -10px;
     }
     #story-card-btn2{
       background-color: rgba(93, 88, 240, 1);
@@ -401,20 +399,29 @@
     }
     /* media query is start */
     /* mediam device */
-    @media screen and (min-width:577px) and (max-width:768px) {
+    @media screen and (min-width:577px) and (max-width:769px) {
+      /* main section */
+      /* our story media */
+      .stories-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+      }
+      .stories-parent{
+        grid-template-columns: repeat(3,1fr);
+      }
       .stories-parent-big{
         display: none;
       }
-      .stories-parent{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        flex-wrap: wrap;
+      /* footer section media */
+      .foot-container{
+        gap: 60px;
+        width: 95%;
       }
-      .story-card{
-        width: 33vw;
+      .foot-li-title{
+        font-size: 1.2rem;
       }
-      .story-card-img img{
-        width:100%;
+      .foot-icon-parent{
+        gap: 5px;
       }
     }
     /* small device */
@@ -437,8 +444,7 @@
       #logo-name,
       .nav-links,
       #nav-btn,
-      .arrow-parent,
-      .stories-parent-big{
+      .arrow-parent{
         display: none;
       }
       .nav-container{
@@ -467,19 +473,16 @@
         font-size: 1.62rem;
       }
       /* our story part style */
-      .stories-parent{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
-        
+      .stories-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
       }
-      .story-card{
-        width: 45vw;
-        place-self: center;
+      .stories-parent-big{
+        display: none;
       }
-      .story-card-img img{
-        width:45vw;
-        place-self: center;
+      .story-card-btn {
+        font-size: 0.6rem;
       }
       /* footer section media start */
       .foot-container{
