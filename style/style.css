@@ -227,6 +227,13 @@
       width: 35px;
       box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.5);
     }
+    /* marquee section is start */
+    .marquee{
+      margin-bottom: 20px;
+      color: black;
+      background-color: rgba(1, 172, 253, 0.17);
+      box-shadow: 0 0 28px 10px rgba(1, 172, 253, 0.17);
+    }
     /* Our stories style start  */
     .stories-background-inner{
       background:linear-gradient(180deg,rgba(255, 255, 255, 0),rgba(254, 163, 1, 0.29)),url(../assets/bg.png);
