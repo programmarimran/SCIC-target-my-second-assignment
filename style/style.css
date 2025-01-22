@@ -461,6 +461,7 @@
       .banner-title{
         font-size: 2.3rem;
       }
+      /* main section madia start */
       /* Standard Curriculum style */
       .curriculum-title{
         font-size: 1.62rem;
@@ -480,5 +481,9 @@
         width:45vw;
         place-self: center;
       }
-
+      /* footer section media start */
+      .foot-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+      }
     }
