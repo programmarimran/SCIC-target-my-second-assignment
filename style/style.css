@@ -476,6 +476,9 @@
         justify-self: center;
       }
       /* nav */
+      .nav-container{
+        align-items: start;
+      }
       .nav-container img{
         width: 100%;
       }
@@ -494,8 +497,16 @@
         display:block;
         position:static;
       }
+      #hamberger-container{
+        /* position: relative; */
+
+      }
       #hamberger-container:hover .nav-links{
         display: block;
+        position: absolute;
+        right: 50px;
+        top: 7px;
+        padding: 10px;
       }
       /* banner part */
       .banner-parent{
